@@ -1,0 +1,2811 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+@font-face {
+  font-family: "MontserratBold";
+  src: local("MontserratBold"),
+    url("./assets/fonts/Montserrat/Montserrat-Bold.ttf") format("truetype");
+  /* font-weight: 700; */
+}
+
+@font-face {
+  font-family: "MontserratMedium";
+  src: local("MontserratMedium"),
+    url("./assets/fonts/Montserrat/Montserrat-Medium.ttf") format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "MontserratLight";
+  src: local("MontserratLight"),
+    url("./assets/fonts/Montserrat/Montserrat-Light.ttf") format("truetype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "MontserratRegular";
+  src: local("MontserratRegular"),
+    url("./assets/fonts/Montserrat/Montserrat-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "MontserratSemiBold";
+  src: local("MontserratSemiBold"),
+    url("./assets/fonts/Montserrat/Montserrat-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: local("Nunito"),
+    url("./assets/fonts/Nunito/Nunito-Bold.ttf") format("truetype");
+  font-weight: normal;
+}
+
+h6#title4 {
+  /* text-shadow: none !important;
+  color: #FFFFFF;
+  font-size: 34px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  font-family: MontserratBold; */
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 39px;
+  letter-spacing: 0.06em;
+  color: #FFFFFF;
+}
+
+.bgColor {
+  height: 66px !important;
+  margin: 0px !important;
+  text-align: center !important;
+  background: #D31C22 !important;
+  box-shadow: 8px 8px 6px -5px rgba(0, 0, 0, 0.14) !important;
+}
+
+.bgColor span {
+  font-family: 'MontserratBold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 66px;
+  letter-spacing: 0.06em;
+  color: #FFFFFF;
+}
+
+.textRed {
+  margin-bottom: 30px !important;
+}
+
+.textRed span {
+
+  font-family: 'MontserratSemiBold';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39.01px;
+  letter-spacing: 0.06em;
+  color: #D31C22;
+}
+
+#subTitle4 {
+  text-shadow: none !important;
+  /* color: #FFFFFF;
+  font-size: 22px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  font-family: MontserratMedium; */
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  letter-spacing: 0.06em;
+
+  color: #D31C22;
+
+}
+
+#subtitle {
+  font-family: MontserratRegular !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30.13px;
+  color: #000000;
+}
+
+.textblack {
+  text-align: center !important;
+}
+
+.textblack span {
+  font-family: 'MontserratSemiBold';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px !important;
+  letter-spacing: -1px;
+  color: #000000;
+}
+
+.text-justify {
+  text-align: left !important;
+  max-width: 801px !important;
+  /* max-height: 209px !important; */
+  word-spacing: 0px !important;
+  letter-spacing: 0px !important;
+}
+
+.wauto {
+  max-width: 1053px !important;
+  /* max-height: 79px !important; */
+  margin: 3rem auto !important;
+  text-align: center !important;
+  letter-spacing: 0px !important;
+
+}
+
+
+.boxPd {
+
+  padding: 1em 2em 1em 2em;
+
+
+}
+
+.cssMuiCardMediaimg {
+  display: block;
+  -webkit-background-size: cover;
+  background-size: contain !important;
+  background-repeat: no-repeat;
+  -webkit-background-position: center;
+  background-position: center;
+  height: 345px;
+}
+
+.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-2\.4.MuiGrid-grid-sm-2\.4.MuiGrid-grid-md-2\.4.MuiGrid-grid-lg-2\.4.MuiGrid-grid-xl-2\.4.css-13i4rnv-MuiGrid-root {
+  display: block !important;
+  margin: 20px auto !important;
+}
+
+
+#subtitleCard {
+  font-family: 'MontserratRegular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.5px;
+  text-align: center;
+  color: #000000;
+
+}
+
+.MuiCardContent-root {
+  padding: 11px !important;
+}
+
+/* @font-face {
+  font-family: "Nunito";
+  src: local("Nunito"),
+    url("./assets/fonts/nunito.regular.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Nunito1";
+  src: local("Nunito1"),
+    url("./assets/fonts/nunito.bold.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Lateef";
+  src: local("Lateef"),
+    url("./assets/fonts/Lateef 400.ttf") format("truetype");
+  font-weight: normal;
+} */
+
+/* .card1 {
+  position: relative;
+}
+.css-bhp9pd-MuiPaper-root-MuiCard-root {
+
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.87);
+  -webkit-transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  border-radius: 30px !important;
+  box-shadow: none !important;
+  overflow: hidden;
+} */
+.overlay {
+  top: 0px;
+  background-image: url("./assets/images/Rectangle\ 27.png");
+  color: #fff;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  width: 100%;
+  border-radius: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 1rem !important;
+}
+
+.text-p {
+  font-family: 'Nunito' !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 20px !important;
+  line-height: 27px !important;
+  width: 51% !important;
+  color: #FFFFFF !important;
+}
+
+.text-h1 {
+  margin-top: 350px !important;
+  font-family: Lateef !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 52px !important;
+  line-height: 93.58% !important;
+  color: #FFFFFF !important;
+}
+
+
+
+.bgcard1 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  transform: scale(1.2);
+  border-radius: 30px;
+  background-image: url('./assets/images/Rectangle\ 29.png');
+}
+
+.bgcard2 {
+  width: 100%;
+  transform: scale(1.2);
+  border-radius: 30px;
+  background-image: url('./assets/images/Rectangle\ 4.png');
+}
+
+.imglogo {
+
+  transform: translate(4px, 11px);
+  margin: auto !important;
+}
+
+
+
+.bgcolor {
+  width: 308px;
+  height: 66px;
+  background: #D31C22;
+  box-shadow: 0px 6px 12px -5px rgba(0, 0, 0, 0.25);
+  border-radius: 15px !important;
+}
+
+.bordernone {
+  border: none !important;
+}
+
+.bgcardabout {
+  transform: scale(1.5);
+  border-radius: 30px;
+  height: 474px;
+  background-image: url("./assets/images/Rectangle\ 1.png");
+}
+
+.card5 {
+  height: 474px;
+}
+
+.lorem {
+  font-family: 'Lateef';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 51px;
+  line-height: 74px;
+  color: #000000;
+}
+
+.h1-lorem {
+  width: 598px;
+  height: 625px !important;
+  margin-bottom: 0px;
+  margin-top: -113px;
+}
+
+/* .title {
+  color: #FFFFFF;
+} */
+
+.css-11b3ww9-MuiPaper-root-MuiAppBar-root {
+  width: 100%;
+  height: 88px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#nav {
+  width: 100%;
+  height: 88px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  position: fixed;
+  top: 0px;
+  z-index: 99999;
+}
+
+.font-family {
+  font-family: "Nunito1";
+  font-weight: bold;
+}
+
+.MuiInput-underline:before {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: "\00a0";
+  position: absolute;
+  transition: border-bottom-color 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  border-bottom: none !important;
+  pointer-events: none;
+}
+
+.header {
+  width: 100%;
+  height: 88px;
+  left: 0px;
+  top: 0px;
+  /* background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+}
+
+.p1 {
+  padding-top: 22px;
+
+}
+
+.a-password {
+  width: 166px;
+  height: 27px;
+  left: 813px;
+  top: 572px;
+
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+
+  color: #FFFFFF;
+
+  text-shadow: 0px 3px 10px rgba(58, 58, 58, 0.25);
+}
+
+button#btn {
+  background: #BD1D22;
+  box-shadow: 0px 3px 10px rgba(58, 58, 58, 0.25);
+  border-radius: 30px !important;
+}
+
+.m1 {
+  width: 592px;
+  height: 88px;
+  left: 387px;
+  top: 328px;
+  background: #FFFFFF;
+  box-shadow: 0px 3px 10px rgba(58, 58, 58, 0.25);
+  border-radius: 15px;
+  margin-bottom: 52px !important;
+}
+
+.m2 {
+  width: 592px;
+  height: 88px;
+  left: 387px;
+  top: 328px;
+  background: #FFFFFF;
+  box-shadow: 0px 3px 10px rgba(58, 58, 58, 0.25);
+  border-radius: 15px;
+  margin-bottom: 16px !important;
+  font-family: 'Nunito1';
+}
+
+.m3 {
+
+  margin-bottom: 115px !important;
+}
+
+.h-1 {
+  height: 38px;
+  left: 639px;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 38px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.btn1 {
+  width: 592px;
+  height: 88px;
+  left: 387px;
+  top: 328px;
+  background: #BD1D22;
+  box-shadow: 0px 3px 10px rgba(58, 58, 58, 0.25);
+  border-radius: 30px !important;
+}
+
+.m4 {
+  width: 592px;
+  height: 88px;
+  left: 387px;
+  top: 328px;
+  background: #FFFFFF;
+  box-shadow: 0px 3px 10px rgba(58, 58, 58, 0.25);
+  border-radius: 15px;
+}
+
+input.MuiInputBase-input.MuiInput-input {
+  width: 149px;
+  height: 27px;
+  left: 409px;
+  top: 361px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  margin: -23px 0px;
+  color: #000000 !important;
+}
+
+.MuiButton-containedPrimary {
+  width: calc(100% + 32px);
+  margin: -16px;
+  width: 592px;
+  height: 88px;
+  background: #BD1D22;
+  box-shadow: 0px 3px 10px rgba(58, 58, 58, 0.25);
+  border-radius: 30px;
+
+  background: #BD1D22 !important;
+  box-shadow: 0px 3px 10px rgba(58, 58, 58, 0.25);
+  border-radius: 30px;
+  color: #fff;
+}
+
+
+
+div#nonebg {
+  background-color: transparent;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  background-color: #eceff1;
+  /* margin: 30px auto; */
+  margin: auto;
+  width: 308px;
+  height: 66px;
+  background: #D31C22;
+  box-shadow: 0px 6px 12px -5px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+
+p.text-left {
+  cursor: pointer;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #FFFFFF;
+  text-shadow: 0px 3px 10px rgba(58, 58, 58, 0.25);
+  margin-bottom: 4rem;
+}
+
+.sqimg {
+  height: 100vh;
+}
+
+.navbar__link {
+  transform: translateY(-17px);
+
+}
+
+
+.navbar__link:hover {
+  transform: translateY(-17px);
+}
+
+.navbar__link {
+  margin: 1em;
+  font-size: 1em;
+  font-family: 'Roboto', sans-serif;
+  cursor: pointer;
+  text-decoration: none;
+  letter-spacing: .3em;
+  text-indent: 0.3em;
+  color: white;
+  border-bottom: 3px solid transparent;
+}
+
+.navbar__link:hover {
+  margin: 1em;
+  font-size: 1em;
+  font-family: 'Roboto', sans-serif;
+  cursor: pointer;
+  text-decoration: none;
+  letter-spacing: .3em;
+  text-indent: 0.3em;
+  color: white;
+  border-bottom: 3px solid transparent;
+}
+
+.icon {
+  position: relative;
+}
+
+.active {
+  width: 50px;
+  height: 50px;
+  left: 671px;
+  top: 932px;
+
+  background: #FFFFFF;
+  box-shadow: 8px 8px 6px -5px rgba(0, 0, 0, 0.14);
+  border-radius: 15px;
+  background-image: url('./assets/images/Group\ 10.png');
+  color: black !important;
+}
+
+
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: red;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000;
+}
+
+.center-col {
+  height: 581px;
+  overflow-y: scroll;
+
+}
+
+.css-145jske {
+  /* margin: -21px 0px !important; */
+  position: fixed !important;
+  padding: 40px !important;
+  background-color: transparent !important;
+  width: 100% !important;
+  bottom: 0px !important;
+  left: 0px !important;
+
+}
+
+#title7 {
+  text-align: center !important;
+  height: 29px;
+  font-family: 'Lateef';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  color: #000000;
+  margin: auto;
+}
+
+/* .css-1n6umif {
+  padding-top: 170px!important;
+  padding-bottom: 32px!important;
+} */
+.card-product {
+  display: block;
+  margin: auto;
+  box-shadow: none !important;
+}
+
+#f44 {
+  font-family: 'Lateef';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 64px;
+  margin: 0px;
+  color: #000000;
+}
+
+.h32 {
+  position: absolute;
+  width: 100%;
+  height: 66px;
+  left: 0px;
+  top: 1018px;
+  text-align: center;
+  background: #D31C22;
+  box-shadow: 8px 8px 6px -5px rgba(0, 0, 0, 0.14);
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 53px;
+  line-height: 61px;
+  color: white;
+}
+
+.h32p {
+  position: absolute;
+  width: 1174px;
+  height: 209px;
+  left: 90px;
+  top: 1132px;
+
+  font-family: 'Lateef';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 41px;
+  line-height: 59px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.complete {
+  position: absolute;
+  width: 100%;
+  height: 254px;
+  left: 73px;
+  right: 0px;
+  top: 679px;
+  /* background: #FFFFFF; */
+  border-radius: 28px;
+
+}
+
+#f44p {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 104.58%;
+  /* or 21px */
+
+
+  color: #000000;
+}
+
+
+
+.bgcardcard1 {
+  transform: scale(1.5);
+  border-radius: 30px;
+  background-image: url('./assets/images/RectangleCard1.png');
+}
+
+.bgcardcard2 {
+  transform: scale(1.5);
+  border-radius: 30px;
+  background-image: url('./assets/images/RectangleCard2.png');
+}
+
+.bgcardcard3 {
+  transform: scale(1.5);
+  border-radius: 30px;
+  background-image: url('./assets/images/RectangleCard3.png');
+}
+
+.text-pc {
+  font-family: 'Nunito' !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 20px !important;
+  line-height: 27px !important;
+  width: 81% !important;
+  color: #FFFFFF !important;
+}
+
+.m1f {
+  margin: 12px 9px;
+}
+
+#f45 {
+  font-family: 'Lateef';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 72.58%;
+  margin: 0px;
+  /* or 28px */
+
+  text-align: center;
+
+  color: #000000;
+}
+
+#f44ps {
+  font-family: 'Lateef';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+
+  color: #000000;
+}
+
+/* .css-3cha7h {
+  height: 20vh !important;
+} */
+
+.imgFeedback {
+  display: block;
+  margin: auto;
+  width: 868px;
+  height: 668px;
+  background: #D9D9D9;
+  box-shadow: 5px 4px 5px rgba(0, 0, 0, 0.15);
+  border-radius: 14px;
+}
+
+.css-178yklu {
+  margin-top: 97px !important;
+}
+
+.p3 {
+  top: 208px;
+  position: absolute;
+}
+
+.h22 {
+  /* position: absolute; */
+  width: 514px;
+  height: 213px;
+  left: 426px;
+  top: 520px;
+  background: #FFFFFF;
+  box-shadow: 5px 4px 5px rgba(0, 0, 0, 0.15);
+  border-radius: 14px;
+  /* height: 26px; */
+  overflow: hidden;
+}
+
+/* .imgFeedback{
+  background-image: url('./assets/images/Rectangle\ feedback.png');
+  height: 100vh;
+} */
+.imgFeedback1 {
+
+  /* left: 426px; */
+  position: absolute;
+  top: 9rem;
+  display: block;
+  left: 565px;
+  margin: auto;
+  width: 200px;
+  justify-content: center;
+
+}
+
+
+.bg12 {
+  width: 100%;
+  height: 524px;
+  margin-top: 179px;
+  background-image: url(./assets/images/RectangleBg1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-1 {
+  position: absolute;
+  width: 215px;
+  height: 254px;
+  left: 102px;
+  top: 679px;
+
+  background: #FFFFFF;
+  border-radius: 28px;
+}
+
+.card-2 {
+  position: absolute;
+  width: 215px;
+  height: 254px;
+  left: 339px;
+  top: 679px;
+
+  background: #FFFFFF;
+  border-radius: 28px;
+}
+
+.card-3 {
+  position: absolute;
+  width: 215px;
+  height: 254px;
+  left: 576px;
+  top: 679px;
+
+  background: #FFFFFF;
+  border-radius: 28px;
+}
+
+.card-4 {
+  position: absolute;
+  width: 215px;
+  height: 254px;
+  left: 818px;
+  top: 679px;
+
+  background: #FFFFFF;
+  border-radius: 28px;
+}
+
+.card-5 {
+  position: absolute;
+  width: 215px;
+  height: 254px;
+  left: 1050px;
+  top: 679px;
+
+  background: #FFFFFF;
+  border-radius: 28px;
+}
+
+.box1 {
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  left: 177px;
+  top: 698px;
+
+  background: #FFFFFF;
+  box-shadow: 0px 4px 16px -4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.card {
+  text-align: center;
+  margin: 0 1rem;
+  position: relative;
+  cursor: pointer;
+  padding: 19px 0.5rem 23px;
+  overflow: hidden;
+  border-radius: 2rem;
+  width: 215px;
+  height: 254px;
+}
+
+.card img {
+  width: 55px;
+  height: 55px;
+  /* font-size: 2.5rem; */
+  margin: auto;
+  transition: all 120ms ease-out;
+}
+
+.card h2 {
+  font-family: 'Lateef';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  color: #000000;
+  margin-bottom: 1rem;
+  /* margin-bottom: 1rem; */
+}
+
+.card p {
+  /* opacity: 0.8; */
+  font-family: 'Lateef';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  text-align: center;
+  color: #000000;
+  margin: 0px;
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  background-color: rgba(0, 102, 255, 0.2);
+  height: 120px;
+  width: 120px;
+  -webkit-font-smoothing: antialiased;
+  transition: all 200ms ease-out;
+  z-index: -1;
+}
+
+.card:hover {
+  color: white;
+}
+
+.card:hover i {
+  transform: scale(1.5);
+}
+
+.card:hover::before {
+  transform: translateX(-50%) translateY(30%) scale(8);
+  background-color: rgba(0, 102, 255, 1);
+}
+
+/* .card-m1 {
+
+  width: 215px !important;
+  height: 254px !important;
+  left: 102px;
+  top: 679px;
+
+  background: #FFFFFF !important;
+  border-radius: 28px !important;
+
+} */
+.card-m1 {
+  /* position: absolute; */
+  width: 100%;
+  height: 254px !important;
+  left: 102px;
+  top: 679px;
+  background: #FFFFFF !important;
+  border-radius: 28px !important;
+}
+
+#f444 {
+  font-family: 'Lateef';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  /* identical to box height */
+  color: #000000;
+}
+
+#f444p {
+  font-family: 'Lateef';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  text-align: center;
+  color: #000000;
+}
+
+.bg2222 {
+
+  margin: 204px auto;
+
+  height: 524px;
+  left: 0px;
+  top: 179px;
+  background-repeat: no-repeat;
+  background: url(./assets/images/RectangleBg1.png);
+  filter: drop-shadow(5px 4px 5px rgba(0, 0, 0, 0.15));
+  background-size: cover;
+}
+
+.m-33 {
+  margin-top: 212px;
+  margin-bottom: 81px;
+}
+
+.bgcolorred {
+  width: 100%;
+  height: 66px;
+  left: 0px;
+  top: 1018px;
+  background: #D31C22;
+  box-shadow: 8px 8px 6px -5px rgba(0, 0, 0, )
+}
+
+div#f4444 {
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 53px;
+  line-height: 61px;
+  margin-top: -17px;
+  color: #FFFFFF !important;
+
+}
+
+p#f4444p {
+  font-family: 'Lateef';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 41px;
+  line-height: 59px;
+  text-align: center;
+  color: #000000;
+}
+
+.pcenter {
+  width: 1174px !important;
+  height: 209px !important;
+  /* left: 90px; */
+  /* top: 1132px; */
+  margin: auto !important;
+  display: block !important;
+}
+
+.m-333 {
+
+  margin-bottom: 4rem;
+
+}
+
+.bgcolorred1 {
+
+  position: absolute;
+  width: 100%;
+  height: 66px;
+  left: 0px;
+  top: 1113px;
+
+  background: #D31C22;
+  box-shadow: 8px 8px 6px -5px rgba(0, 0, 0, 0.14);
+}
+
+#f44441 {
+  margin-top: -17px;
+  font-family: 'Lateef';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 53px;
+  line-height: 77px;
+  color: #FFFFFF;
+}
+
+h1#f4444 {
+  color: white;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 53px;
+  line-height: 61px;
+}
+
+/* .section {
+  margin-top: 250px;
+} */
+
+/* .css-126nd9x-MuiPaper-root {
+  background: #D9D9D9;
+  box-shadow: 5px 4px 5px rgba(0, 0, 0, 0.15);
+  border-radius: 14px;
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.87);
+  -webkit-transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+
+@media only screen and (min-width: 1024px) and (max-height: 1366px)
+    and (-webkit-min-device-pixel-ratio: 1.5) and (hover: none) {
+  }
+*/
+
+
+.paperbg {
+  background-image: url('./assets/images/Rectangle\ feedback.png') !important;
+  background-repeat: no-repeat !important;
+  height: 100vh !important;
+  background-size: cover !important;
+  border: none !important;
+}
+
+.btn2 {
+  width: 100%;
+  height: 66px;
+  left: 387px;
+  top: 328px;
+  background: #BD1D22;
+  box-shadow: 0px 3px 10px rgba(58, 58, 58, 0.25);
+  border-radius: 30px !important;
+}
+
+.h-2 {
+  /* text-align: center; */
+  height: 38px;
+  left: 639px;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 57px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.input1 {
+  width: 220%;
+  height: 30px;
+  background: #FFFFFF;
+  box-shadow: 5px 4px 5px rgba(0, 0, 0, 0.15);
+  border-radius: 14px;
+}
+
+input#\:r1\: {
+  /* position: absolute; */
+  width: 100%;
+  height: 30px;
+  left: 426px;
+  top: 304px;
+  background: #FFFFFF;
+  box-shadow: 5px 4px 5px rgba(0, 0, 0, 0.15);
+  border-radius: 14px;
+  /* padding: 16.5px 142px; */
+}
+
+
+textarea#outlined-multiline-static {
+  width: 91%;
+  height: 212px !important;
+  left: 426px;
+  top: 304px;
+  background: #FFFFFF;
+  box-shadow: 5px 4px 5px rgba(0, 0, 0, 0.15);
+  border-radius: 14px;
+  padding: 16.5px 142px;
+}
+
+#content1 {
+
+  /* position: absolute; */
+  /* width: 264px;
+    height: 61px;
+    left: 463px;
+    top: 1466px; */
+  font-family: 'Lateef';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 53px;
+  line-height: 77px;
+  color: #D31C22;
+}
+
+.paragraph {
+  font-family: 'Lateef' !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 41px !important;
+  /* line-height: 59px!important; */
+  color: #000000 !important;
+}
+
+#card11 {
+  background: #D9D9D9;
+  box-shadow: 5px 4px 5px rgba(0, 0, 0, 0.15);
+  border-radius: 14px;
+}
+
+.css-1oqv2c0-MuiPaper-root-MuiCard-root {
+  background-color: transparent !important;
+  color: rgba(0, 0, 0, 0.87);
+  -webkit-transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  border-radius: 4px;
+  box-shadow: none !important;
+}
+
+.TextField1 {
+  /* margin: 22px 0px !important; */
+  background: #FFFFFF;
+  box-shadow: 5px 4px 5px rgba(0, 0, 0, 0.15);
+  border-radius: 14px;
+}
+
+.css-md26zr-MuiInputBase-root-MuiOutlinedInput-root {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.4375em;
+  letter-spacing: 0.00938em;
+  color: rgba(0, 0, 0, 0.87);
+  box-sizing: border-box;
+  position: relative;
+  cursor: text;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  border-radius: 14px !important;
+}
+
+.TextField11 {
+  background: #D31C22 !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+}
+
+textarea.TextField1.describe.w-100 {
+  /* height: 213px;
+  padding: 16.5px 14px !important;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+  color: #2F2F2F; */
+  font-family: 'MontserratRegular' !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 33px;
+  height: 213px !important;
+  padding: 16.5px 14px !important;
+}
+
+.css-h5fkc8 {
+  margin-top: 32px;
+  margin-bottom: 32px !important;
+}
+
+p#\:r1\:-helper-text {
+  height: 0px;
+}
+
+p#\:r3\:-helper-text {
+  height: 0px;
+}
+
+#bttn {
+  background: #D31C22;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  color: #D9D9D9;
+  width: 592px !important;
+  height: 88px !important;
+}
+
+.cardAction1 {
+  display: flex;
+  padding: 8px;
+}
+
+.title span {
+  font-family: 'MontserratSemiBold';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39.01px;
+  letter-spacing: 0.06em;
+}
+
+.description span {
+  font-family: 'MontserratRegular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.5px;
+  /* font-family: 'MontserratRegular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27.28px;
+    text-align: left; */
+}
+
+.colorWhite {
+  color: #FFFFFF !important;
+}
+
+.colorblack {
+  color: #000000 !important;
+}
+
+.cblack {
+  color: #000000 !important;
+}
+
+.textcenter {
+  text-align: center !important;
+}
+
+.colorblack span {
+  /* font-family: 'MontserratSemiBold';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 22px;
+  letter-spacing: 0px; */
+  /* font-family: 'MontserratSemiBold';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 22px;
+  letter-spacing: 0.06em; */
+  font-family: 'MontserratSemiBold';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px !important;
+  letter-spacing: -1px;
+  color: #000000;
+}
+
+.body span {
+  font-family: MontserratRegular !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30.13px;
+}
+
+/* span {
+  font-family: 'Lateef';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 55px;
+  color: #FFFFFF;
+  text-transform: capitalize;
+} */
+
+/* form {
+  margin: 36px 0px;
+} */
+
+.css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+  text-align: left;
+  position: absolute;
+  bottom: -3px;
+  right: 0;
+  top: -5px;
+  left: 0;
+  margin: 0;
+  padding: 0 8px;
+  pointer-events: none;
+  border-radius: inherit;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  min-width: 0%;
+  border-color: rgba(0, 0, 0, 0.23);
+}
+
+label#\:r1\:-label {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+  color: #2F2F2F;
+}
+
+label#\:r3\:-label {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+  color: #2F2F2F;
+}
+
+/* input {
+  width: 100% !important;
+  height: 30px !important;
+  font-family: 'Nunito' !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 24px !important;
+  line-height: 33px !important;
+  color: #2F2F2F !important;
+} */
+
+legend.css-ihdtdm {
+  margin: 36px;
+}
+
+fieldset {
+  text-align: left;
+  position: absolute;
+  bottom: -3px;
+  right: 0;
+  top: -27px;
+  left: 0;
+  margin: 0;
+  padding: 0 8px;
+  pointer-events: none;
+  border-radius: inherit;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  min-width: 0%;
+  border-color: rgba(0, 0, 0, 0.23);
+
+}
+
+.css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+  text-align: left;
+  position: absolute;
+  bottom: -3px;
+  right: 0;
+  top: -27px;
+  left: 0;
+  margin: 0;
+  padding: 0 8px;
+  pointer-events: none;
+  border-radius: inherit;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  min-width: 0%;
+  border-color: rgba(0, 0, 0, 0.23);
+}
+
+.css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+  text-align: left;
+  position: absolute;
+  bottom: 0px;
+  right: 0;
+  top: -27px !important;
+  left: 0;
+  margin: 0;
+  padding: 0 8px;
+  pointer-events: none;
+  border-radius: inherit;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  min-width: 0%;
+  border-color: rgba(0, 0, 0, 0.23);
+}
+
+.paperContainer {
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 524px;
+  ;
+  background-image: url("./assets/images/RectangleBg1.png");
+}
+
+.h1-1 {
+  background-image: url("./assets/images/RectangleCard11.png");
+
+}
+
+
+.bgRedLine {
+  position: absolute;
+  width: 100%;
+  height: 66px;
+  left: 0px;
+  /* top: 811px; */
+  top: 1060px;
+  background: #D31C22;
+  background-image: url(./assets/images/RectangleRedline.png);
+  box-shadow: 8px 8px 6px -5px rgba(0, 0, 0, 0.14);
+}
+
+.content {
+  padding: 1em 0px;
+  position: relative;
+  top: 14px;
+  left: 0px;
+}
+
+.content1 {
+  padding: 1em 0px;
+  position: relative;
+  top: 14px;
+  left: 0px;
+}
+
+/* .content {
+
+  margin: 23vh 0px;
+} */
+/* .content1 {
+  margin: -24vh 0px;
+} */
+.main {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: inline-block;
+}
+
+/* .navbar{
+    font-size: 24px;
+    background-color: white;
+    padding: 4px;
+    border-radius: 24px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    border: black solid 4px;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navbar ul li{
+    display: inline-block;
+}
+
+.navbar ul li:hover{
+    text-decoration: underline ;
+    cursor: pointer;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+} */
+
+.profile {
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+.profile img {
+  width: 180px;
+  border: 2px black solid;
+}
+
+.profile h1 {
+  /* font-size: 55px;
+  font-family: sans-serif;
+  font-weight: 600; */
+  background: #D31C22;
+  position: relative;
+  font-family: 'Arial';
+  /* left: -18%; */
+  /* width: 1562px; */
+  width: 100%;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 53px;
+  line-height: 61px;
+  color: #FFFFFF;
+
+}
+
+.Card img {
+  margin: 41px 0px;
+}
+
+.profile p {
+  font-weight: 400;
+  line-height: 24px;
+  font-family: 'Lateef';
+  font-style: normal;
+  font-size: 41px;
+  line-height: 59px;
+  text-align: center;
+  color: #000000;
+  padding: 1rem;
+}
+
+/* .action-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    background: #e22525;
+    padding: 0.5em 2em;
+    border-radius: 40px;
+    margin: 8px;
+}
+
+.action-btn:hover {
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border: 2px solid black;
+ } */
+
+
+/* .footer{
+    grid-area: footer;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #383838;
+
+}
+  
+.footer i {
+    color: rgb(0, 0, 0);
+    font-size: 80px;
+    max-width: 80%;
+    opacity: 0.25;
+    margin-left: 15px;
+    margin-right: 15px;
+    cursor: pointer;
+  }
+  
+  i:hover {
+    opacity: 1;
+  } */
+
+/* .sectionc {
+  padding: 27vh 0px;
+} */
+.pl-5 {
+  padding: 0px 34px;
+}
+
+@media (min-width: 768px)and (max-width:1024px) {
+  .text-h1 {
+    margin-top: 291px !important;
+    font-family: Lateef !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 52px !important;
+    line-height: 93.58% !important;
+    color: #FFFFFF !important;
+  }
+
+  .text-pc {
+    font-family: 'Nunito' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 20px !important;
+    line-height: 27px !important;
+    width: 100% !important;
+    color: #FFFFFF !important;
+  }
+
+  .text-p {
+    font-family: 'Nunito' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 20px !important;
+    line-height: 27px !important;
+    /* width: 70% !important; */
+    /* width: 60% !important; */
+    width: 71% !important;
+    color: #FFFFFF !important;
+  }
+
+  #bttn {
+    background: #D31C22;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    color: #D9D9D9;
+    width: 460px !important;
+    height: 88px !important;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @import url(https://fonts.googleapis.com/css?family=Raleway); */
+/* body {
+  background: #2c3e50;
+} */
+
+/* h1{
+  font-size: 30px;
+  color: #ffffff;
+  margin: 50px 0 50px 25px;
+} */
+/*=== Basic box styling  ===*/
+.box {
+  background: #2ecc71 none repeat scroll 0 0;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  height: 150px;
+  line-height: 150px;
+  margin: 0 auto 3%;
+  padding: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 95%;
+}
+
+/*=== Trigger  ===*/
+.animate {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+/*=== Optional Delays, change values here  ===*/
+.one {
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+}
+
+.two {
+  -webkit-animation-delay: 1.5s;
+  -moz-animation-delay: 1.5s;
+  animation-delay: 1.5s;
+}
+
+/* 
+.three {
+  -webkit-animation-delay: 2.5s;
+  -moz-animation-delay: 2.5s;
+  animation-delay: 2.5s;
+}
+
+.four {
+  -webkit-animation-delay: 3.5s;
+  -moz-animation-delay: 3.5s;
+  animation-delay: 3.5s;
+}
+
+.five {
+  -webkit-animation-delay: 4.5s;
+  -moz-animation-delay: 4.5s;
+  animation-delay: 4.5s;
+}
+
+.six {
+  -webkit-animation-delay: 5.5s;
+  -moz-animation-delay: 5.5s;
+  animation-delay: 5.5s;
+}
+
+.seven {
+  -webkit-animation-delay: 6.5s;
+  -moz-animation-delay: 6.5s;
+  animation-delay: 6.5s;
+}
+
+.eight {
+  -webkit-animation-delay: 7.5s;
+  -moz-animation-delay: 7.5s;
+  animation-delay: 7.5s;
+} */
+
+/*=== Animations start here  ===*/
+
+/*==== FADE IN UP ===*/
+@-webkit-keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
+
+/*=== FADE IN DOWN ===*/
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+}
+
+@-webkit-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+/*=== FADE IN LEFT ===*/
+/* @-webkit-keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInLeft {
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+} */
+
+/*==== FADE IN RIGHT ===*/
+/* @-webkit-keyframes fadeInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInRight {
+  -webkit-animation-name: fadeInRight;
+  animation-name: fadeInRight;
+} */
+
+/*=== FADE IN  ===*/
+/* @-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+} */
+
+/*=== FADE IN UP Big ===*/
+/* .fadeInUpBig {
+  -webkit-animation-name: fadeInUpBig;
+  animation-name: fadeInUpBig;
+}
+@-webkit-keyframes fadeInUpBig {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 2000px, 0);
+    transform: translate3d(0, 2000px, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+@keyframes fadeInUpBig {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 2000px, 0);
+    transform: translate3d(0, 2000px, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+} */
+
+/*=== FADE IN DOWN Big ===*/
+/* .fadeInDownBig {
+  -webkit-animation-name: fadeInDownBig;
+  animation-name: fadeInDownBig;
+}
+@-webkit-keyframes fadeInDownBig {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -2000px, 0);
+    transform: translate3d(0, -2000px, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+@keyframes fadeInDownBig {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -2000px, 0);
+    transform: translate3d(0, -2000px, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+} */
+
+/*=== FADE IN LEFT Big ===*/
+/* .fadeInLeftBig {
+  -webkit-animation-name: fadeInLeftBig;
+  animation-name: fadeInLeftBig;
+}
+@-webkit-keyframes fadeInLeftBig {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-2000px, 0, 0);
+    transform: translate3d(-2000px, 0, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+@keyframes fadeInLeftBig {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-2000px, 0, 0);
+    transform: translate3d(-2000px, 0, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+} */
+
+/*=== FADE IN RIGHT Big ===*/
+/* .fadeInRightBig {
+  -webkit-animation-name: fadeInRightBig;
+  animation-name: fadeInRightBig;
+}
+@-webkit-keyframes fadeInRightBig {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(2000px, 0, 0);
+    transform: translate3d(2000px, 0, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+@keyframes fadeInRightBig {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(2000px, 0, 0);
+    transform: translate3d(2000px, 0, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+} */
+
+
+/* .................new HeaderCSS...................... */
+#header {
+  width: 100%;
+  height: 88px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+.bgCardBox {
+  top: 0px;
+  color: #fff;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  width: 100%;
+  border-radius: 30px !important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url('./assets/images/Rectangle\ 27.png');
+  filter: drop-shadow(14px 14px 28px rgba(0, 0, 0, 0.15));
+  border-radius: 35px !important;
+}
+
+.MuiCard {
+  filter: drop-shadow(14px 14px 28px rgba(0, 0, 0, 0.15)) !important;
+  border-radius: 35px !important;
+}
+
+#title {
+  text-align: left !important;
+  width: 484px;
+  height: 49px;
+  font-family: 'Lateef';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3.25rem;
+  line-height: 93.58%;
+  color: #FFFFFF;
+}
+
+#description {
+  width: 260px;
+  text-align: left !important;
+  height: 26px;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #FFFFFF;
+}
+
+.boxOverlay {
+  position: absolute;
+  top: 60%;
+  left: 56%;
+  color: white;
+  transform: translate(-50%, 50%);
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+#header {
+  z-index: 9999;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  height: 88px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.main {
+  margin-top: 7.375rem;
+  margin-bottom: 7.375rem;
+}
+
+#title1 {
+  font-family: 'Lateef';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 52px;
+  line-height: 75px;
+  color: #FFFFFF;
+  text-align: left;
+}
+
+#description1 {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #FFFFFF;
+  text-align: left;
+}
+
+.boxOverlay1 {
+  right: 0px !important;
+  position: absolute !important;
+  bottom: 0px !important;
+  left: 0px !important;
+  padding: 46px !important;
+}
+
+.boxOverlay2 {
+  right: 0px !important;
+  position: absolute !important;
+  bottom: 0px !important;
+  left: 0px !important;
+  padding: 20px !important;
+}
+
+.w2body {
+  width: 277px;
+}
+
+.w1body {
+  width: 277px;
+}
+
+#title3 {
+  font-family: 'Lateef';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 30px;
+  color: #000000;
+  text-align: center;
+  margin: 0px;
+}
+
+#description3 {
+  font-family: 'Lateef';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  text-align: center;
+  color: #000000;
+}
+
+
+
+.css-1wq21mn-MuiPaper-root {
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.87);
+  -webkit-transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  border-radius: 4px;
+  box-shadow: none;
+  padding: 16px;
+  background-color: white !important;
+}
+
+.h2 {
+  position: absolute;
+  width: 418px;
+  height: 61px !important;
+  font-family: 'Lateef';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 53px;
+  line-height: 77px;
+}
+
+#title5 {
+  font-family: 'Lateef';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 53px;
+  line-height: 77px;
+  text-align: left;
+  margin: 0px;
+  color: #D31C22;
+  padding: 0px;
+  margin-bottom: -17px;
+}
+
+.subtitle5 {
+  font-family: 'Lateef';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 41px;
+  line-height: 59px;
+  color: #000000;
+  text-align: left;
+}
+
+.m5 {
+  margin-bottom: 3.313rem;
+}
+
+#WhiteCard {
+  width: 215px;
+  height: 269px;
+  margin: auto;
+  background: #FFFFFF;
+  box-shadow: 0px 13px 13px -8px rgba(0, 0, 0, 0.15);
+  border-radius: 28px;
+
+}
+
+#media {
+  margin-top: 19px !important;
+  width: 55px;
+  height: 55px;
+  margin: auto;
+}
+
+#title7 {
+  height: 29px;
+  font-family: 'Lateef';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  color: #000000;
+  margin: auto;
+}
+
+#subtitle7 {
+  width: 186px;
+  height: 87px;
+  font-family: 'Lateef';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  text-align: center;
+  color: #000000;
+
+}
+
+#m-d {
+  left: 0px;
+  margin: 39px -29px;
+  position: relative;
+  top: 219px;
+  right: 0px;
+}
+
+.pr {
+  position: relative !important;
+  top: -88px !important;
+
+}
+
+.bg {
+  width: 100% !important;
+  height: 100vh;
+  left: 0px;
+  top: 9px;
+  position: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  padding: 0;
+  background-image: url('./assets/images/Groupbg.png');
+}
+
+.paper {
+
+  background-color: transparent !important;
+  color: rgba(0, 0, 0, 0.87);
+  -webkit-transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  border-radius: 4px;
+  border: none !important;
+}
+
+
+.css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root {
+  width: 348% !important;
+
+  font-family: 'Nunito' !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 24px !important;
+  line-height: 33px !important;
+  color: #2F2F2F !important;
+}
+
+.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+}
+
+em {
+  font-family: 'MontserratRegular' !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 33px !important;
+  color: #2F2F2F !important;
+}
+
+.css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root {
+  width: 100% !important;
+}
+
+li.MuiButtonBase-root.MuiMenuItem-root.MuiMenuItem-gutters.MuiMenuItem-root.MuiMenuItem-gutters.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root {
+  font-family: 'MontserratRegular' !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.5px;
+
+}
+
+.css-1869usk-MuiFormControl-root {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+  min-width: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  vertical-align: top;
+  margin: 8px;
+  min-width: 393px !important;
+}
+
+.css-1869usk-MuiFormControl-root {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+  min-width: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  vertical-align: top;
+  margin: 0px !important;
+  min-width: 120px;
+}
+
+.css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.4375em;
+  letter-spacing: 0.00938em;
+  color: rgba(0, 0, 0, 0.87);
+  box-sizing: border-box;
+  position: relative;
+  cursor: text;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  border-radius: 15px !important;
+}
+
+.css-1ka5eyc-MuiPaper-root-MuiMenu-paper-MuiPopover-paper {
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.87);
+  -webkit-transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  border-radius: 15px !important;
+}
+
+.btnSignin {
+  background: #BD1D22 !important;
+  box-shadow: 0px 3px 10px rgba(58, 58, 58, 0.25) !important;
+  border-radius: 30px !important;
+}
+
+.text-right {
+  text-align: right !important;
+  margin-bottom: 7.188rem;
+}
+
+a {
+  color: #0d6efd;
+  text-decoration: none !important;
+}
+
+.bgfeed {
+  background: #D9D9D9;
+  box-shadow: 5px 4px 5px rgba(0, 0, 0, 0.15);
+  border-radius: 14px;
+}
+
+.css-md26zr-MuiInputBase-root-MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+  border-color: transparent !important;
+}
+
+.css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+  text-align: left;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  top: -5px;
+  left: 0;
+  margin: 0;
+  padding: 0 8px;
+  pointer-events: none;
+  border-radius: inherit;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  min-width: 0%;
+  border-color: transparent !important;
+}
+
+input {
+  font-family: 'MontserratRegular' !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.5px;
+}
+
+#email {
+  font-family: 'MontserratRegular' !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.5px;
+  color: #000000;
+}
+
+#password {
+  font-family: 'MontserratRegular' !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.5px;
+}
+
+#Select {
+  font-family: 'MontserratRegular' !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.5px;
+}
+
+
+.btn {
+  width: 100% !important;
+  height: 4rem !important;
+  background: #BD1D22 !important;
+  box-shadow: 0px 3px 10px rgba(58, 58, 58, 0.25) !important;
+  border-radius: 30px !important;
+}
+
+.btn span {
+  font-family: 'MontserratSemiBold';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.btn span:hover {
+  font-family: 'MontserratSemiBold';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+.mbs1 {
+  margin-bottom: 3.25rem !important;
+  margin-top: 0px !important;
+}
+
+.mbs3 {
+  margin-bottom: 1rem;
+}
+
+.mbb1 {
+  margin: 0px !important;
+
+}
+
+.fs1 span {
+  font-family: 'MontserratRegular' !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.5px;
+  text-shadow: none;
+}
+
+.mts1 {
+  margin-top: 6.25rem !important;
+}
+
+
+.css-mgur8 {
+  z-index: 00000 !important;
+  display: block;
+  position: fixed;
+  bottom: 0px !important;
+  right: 0px !important;
+  ceter: unset;
+  justify-content: center;
+  left: 0 !important;
+}
+
+
+.mdbg {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('./assets/images/bgfeedback.png');
+}
+
+@media (min-width : 1284px) {
+  .bg {
+    width: 100%;
+    height: 1000px;
+    left: 0px;
+    top: -30px;
+    position: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    padding: 0;
+  }
+
+  .css-binzgt {
+    margin-top: 152px !important;
+  }
+
+  .main {
+    margin-top: 7.375rem;
+    margin-bottom: 15.375rem;
+  }
+}
+
+
+
+.react-multi-carousel-dot button {
+  display: inline-block;
+  width: 42px !important;
+  height: 42px !important;
+  border-radius: 50%;
+  opacity: 1;
+  padding: 5px 5px 5px 5px;
+  box-shadow: none;
+  transition: background .5s;
+  border-width: 2px;
+  border-style: solid;
+  border-color: white !important;
+  padding: 0;
+  margin: 0;
+  margin-right: 6px;
+  outline: 0;
+  cursor: pointer;
+}
+
+
+.react-multi-carousel-dot--active button {
+  background: transparent !important;
+}
+
+.a:focus {
+  background-color: rgb(71, 73, 71) !important;
+}
+
+.react-multiple-carousel__arrow {
+  position: absolute;
+  outline: 0;
+  transition: all .5s;
+  border-radius: 35px;
+  z-index: 1000;
+  border: 0;
+  background: rgba(0, 0, 0, 0.5);
+  min-width: 21px;
+  min-height: 43px;
+  opacity: 0 !important;
+  cursor: pointer;
+}
+
+.react-multi-carousel-dot-list {
+  position: inherit !important;
+  bottom: 0;
+  display: flex;
+  left: 0;
+  right: 0;
+  justify-content: center;
+  margin: auto;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.react-multi-carousel-dot-list1 {
+  position: absolute;
+  bottom: auto !important;
+  display: flex;
+  left: 0;
+  right: 0;
+  justify-content: center;
+  margin: auto;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+
+@media(min-width : 0px) and (max-width : 464px) {
+
+
+  .css-145jske {
+    position: fixed !important;
+    padding: 40px !important;
+    background-color: transparent !important;
+    width: 100% !important;
+    bottom: 0px !important;
+    left: -14px !important;
+  }
+
+  button.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-sizeMedium.css-78trlr-MuiButtonBase-root-MuiIconButton-root {
+    width: 60px !important;
+  }
+
+  button.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-sizeMedium.css-78trlr-MuiButtonBase-root-MuiIconButton-root {
+    width: 60px !important;
+  }
+  #header {
+    z-index: 9999;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 65px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .css-11b3ww9-MuiPaper-root-MuiAppBar-root {
+    height: 65px !important;
+    background-color: white !important;
+
+  }
+
+  .css-rgsloh {
+    padding-top: 100px !important;
+    padding-bottom: 32px;
+  }
+
+  .wauto {
+    max-width: 1053px !important;
+    max-height: none !important;
+    margin: 1rem auto !important;
+    text-align: center !important;
+    letter-spacing: 0px !important;
+  }
+}
+
+.css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root {
+  width: 441px !important;
+}
